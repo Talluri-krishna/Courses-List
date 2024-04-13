@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ASSIGNMENTS</title>
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background:
+        linear-gradient(to top right,rgb(17, 2, 40), transparent),
+        linear-gradient(to top left, rgb(239, 113, 113), transparent);
+        background-blend-mode: screen;
+    }
+    header {
+        background-color: #121212;
+        color: #ffffff;
+        text-align: center;
+        padding: 1rem;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .product-card {
+        width: calc(30% - 1rem);
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .product-card img {
+        width: 100%;
+        height: 40%;
+        border-radius: 5px;
+        
+    }
+    .product-card:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    }
+
+
+    .product-card .price {
+        font-weight: bold;
+        color: #2600ff;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>COURSES LIST</h1>
+</header>
+<div class="container">
+    <div class="product">
+        <div class="product-card">
+            <a href="https://builtin.com/machine-learning">
+            <img src="https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/machine-learning-pillar-page-overview.jpeg">
+            </a>
+            <h3>Machine Learning</h3>
+            <p>Machine learning (ML) is a branch of AI.</p>
+            <p class="price">₹13000.</p>
+        </div>
+        <div class="product-card">
+            <a href="https://www.turing.com/kb/making-deep-learning-models-generalize-better">
+            <img src="https://images.prismic.io/turing/652ebef4fbd9a45bcec8189e_Making_Deep_Learning_Models_Generalize_Better_d126b63463.webp?auto=format,compress">
+            </a>
+            <h3>Deep Learning</h3>
+            <p>Deep learning is the subset of machine learning methods based on artificial neural networks (ANNs) with representation learning.</p>
+            <p class="price">₹18000.</p>
+        </div>
+        <div class="product-card">
+            <a href="https://www.w3schools.com/dsa/index.php#:~:text=Learn%20Data%20Structures%20and%20Algorithms,working%20with%20lots%20of%20data.">
+            <img src="https://media.licdn.com/dms/image/D4E0BAQEOmyjv_MMQjg/company-logo_200_200/0/1688424941025/dsa_logo?e=2147483647&v=beta&t=84o2g5cpO0LtdiyunkpfZdW34aAbPnCSwGDTgPpVQX8" >
+            </a>
+            <h3>DSA</h3>
+            <p>Data Structures and Algorithms (DSA) refer to the study of methods for organizing and storing data and the design of procedures.</p>
+            <p class="price">₹20000.</p>
+        </div>
+        <div class="product-card">
+            <a href="https://www.python.org/">
+            <img src="https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/">
+            </a>
+            <h3>Python</h3>
+            <p>The official home of the Python Programming Language.</p>
+            <p class="price">₹5000.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
